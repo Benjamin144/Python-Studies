@@ -27,6 +27,7 @@
 # length = len(name)
 # print(length)
 
+
 # coding exercise 1.4
 # a = input("a: ")
 # b = input("b: ")
@@ -162,84 +163,89 @@
 # bmi = weight / (height ** 2)
 # BMI = round(bmi)
 
-# Number Manipulation & "F" Strings in Python
-print(8 / 3) # outputs a floating point number
-print(int(8 / 3)) # output of int chops off floating numbers
-print(round(8 / 3)) # makes the number an integer from a floating point number depending on the calculation being clean
-print(round(8 / 3, 2)) # specifiys the precision of the number of digits rounded to.
-print(round(2.666666666666, 2)) # alternativley, it can be written like this.
-# another way of dividing numbers is to use the floor division //
-print (8 // 3)
-# in Python a number divided by a number outputs a floating point number 
-# If you didn't need a FPN then the floor division would chop the FPN's off without converting it into an integer.
-print(type(8 // 3)) # Integer
-print(type(8 / 3)) # Float
-print(type(4 / 2)) # Float even with a clean division
-print (4 / 2) # as represented here
-# if we save the results of this calculation into a variable
-result = 4 / 2
-# you can then continue to do calculations on this variable
-result = 4 / 2
-result /= 2 # divides by 2 again
-print(result)
+# # Number Manipulation & "F" Strings in Python
+# print(8 / 3) # outputs a floating point number
+# print(int(8 / 3)) # output of int chops off floating numbers
+# print(round(8 / 3)) # makes the number an integer from a floating point number depending on the calculation being clean
+# print(round(8 / 3, 2)) # specifiys the precision of the number of digits rounded to.
+# print(round(2.666666666666, 2)) # alternativley, it can be written like this.
+# # another way of dividing numbers is to use the floor division //
+# print (8 // 3)
+# # in Python a number divided by a number outputs a floating point number 
+# # If you didn't need a FPN then the floor division would chop the FPN's off without converting it into an integer.
+# print(type(8 // 3)) # Integer
+# print(type(8 / 3)) # Float
+# print(type(4 / 2)) # Float even with a clean division
+# print (4 / 2) # as represented here
+# # if we save the results of this calculation into a variable
+# result = 4 / 2
+# # you can then continue to do calculations on this variable
+# result = 4 / 2
+# result /= 2 # divides by 2 again
+# print(result)
 
-# when writing code for example to keep track of a users score
-score = 0
-# User scores a point
-# rather than using the previous value of score
-score = score + 1
-# use the short hand
-score += 1
-print(score)
-# you can use this method in the following way, to manipulate a value based on its previous value
-score -= 1
-score /= 1
-score *= 1
+# # when writing code for example to keep track of a users score
+# score = 0
+# # User scores a point
+# # rather than using the previous value of score
+# score = score + 1
+# # use the short hand
+# score += 1
+# print(score)
+# # you can use this method in the following way, to manipulate a value based on its previous value
+# score -= 1
+# score /= 1
+# score *= 1
 
-score = 0
-# previously we had to use this type of code
-# print("Your score is " + score) # because these are different datatypes the code will return an error
-print("Your score is " + str(score)) # so we have to convert the variable into a string to debug the code
-print(score)
+# score = 0
+# # previously we had to use this type of code
+# # print("Your score is " + score) # because these are different datatypes the code will return an error
+# print("Your score is " + str(score)) # so we have to convert the variable into a string to debug the code
+# print(score)
 
-# sometimes programmers require a more convenient way of storing differing datatypes
-score = 0 # integer
-height = 1.8 # float
-isWinning = True # boolean
-print("Your score is ") # find some way of integrating all of the above datatypes into this string
-#instead of having to use all of the above data and a whole load of concatenation, then converting them into a string
-print("Your score is " +str(score)) #this can be longwinded, and could break leading to alot of frustration.
+# # sometimes programmers require a more convenient way of storing differing datatypes
+# score = 0 # integer
+# height = 1.8 # float
+# isWinning = True # boolean
+# print("Your score is ") # find some way of integrating all of the above datatypes into this string
+# #instead of having to use all of the above data and a whole load of concatenation, then converting them into a string
+# print("Your score is " +str(score)) #this can be longwinded, and could break leading to alot of frustration.
 
-#f-string
-print("Your score is ")
-# you type the character f infront of the string and it should go in front of the double or single quotes most importantly 
-f"your score is " # this is now an f-string and I can now start adding characters in front of the f-string
-# so if I wanted to write "your score is " = to the the variable score I would put the variable score inside a set of curly braces, within the string
-print(f"Your Score is {score}") # so when the code is run python will convert the variables within the string in the background, without the use of concatenation and data conversion.
+# #f-string
+# print("Your score is ")
+# # you type the character f infront of the string and it should go in front of the double or single quotes most importantly 
+# f"your score is " # this is now an f-string and I can now start adding characters in front of the f-string
+# # so if I wanted to write "your score is " = to the the variable score I would put the variable score inside a set of curly braces, within the string
+# print(f"Your Score is {score}") # so when the code is run python will convert the variables within the string in the background, without the use of concatenation and data conversion.
 
-# 🚨 Don't change the code below 👇
-age = input("What is your current age?")
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# age = input("What is your current age?")
+# # 🚨 Don't change the code above 👆
 
 
 
-#Write your code below this line 👇
-days = int(365 * 90) - 365 * int(age)
-weeks = int(52 * 90) - 52 * int(age) 
-months = int(12 * 90) - 12 * int(age)
+# #Write your code below this line 👇
+# days = int(365 * 90) - 365 * int(age)
+# weeks = int(52 * 90) - 52 * int(age) 
+# months = int(12 * 90) - 12 * int(age)
 
-print (f"You have {days} days, {weeks} weeks, and {months} months left.")
+# print (f"You have {days} days, {weeks} weeks, and {months} months left.")
 
-# 🚨 Don't change the code below 👇
-age = input("What is your current age?")
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# age = input("What is your current age?")
+# # 🚨 Don't change the code above 👆
 
-age_as_int = int(age)
+# age_as_int = int(age)
 
-years_remaining = 90 - age_as_int
-days_remaining = years_remaining * 365
-weeks_remaining = years_remaining * 52
-months_remaining = years_remaining * 12
+# years_remaining = 90 - age_as_int
+# days_remaining = years_remaining * 365
+# weeks_remaining = years_remaining * 52
+# months_remaining = years_remaining * 12
 
-message =  (f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
-print(message)
+# message =  (f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
+# print(message)
+
+print("Welcome to the Band Name Generator.")
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print("Your band name could be " + city + " " + pet)
