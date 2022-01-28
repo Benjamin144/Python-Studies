@@ -67,7 +67,7 @@
 
 # print(123 + 345) # Adds two integers together
 
-# 134_265_4896
+# 134_265_4896 you can use underscores for easy reading. Python wil know just to read the numbers!
 
 #Float
 
