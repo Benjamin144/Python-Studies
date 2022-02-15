@@ -12,7 +12,7 @@ payable = percentage_tip_as_int / 100 * total_bill_as_int / split_bill_as_int
 print(payable)
 
 
-total_bill_as_int 
-percentage_tip_as_int 
-split_bill_as_int 
+# total_bill_as_int 
+# percentage_tip_as_int 
+# split_bill_as_int 
 
