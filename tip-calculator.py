@@ -1,3 +1,5 @@
+import locale
+import decimal
 print("Welcome to the tip calculator!")
 
 total_bill = input ("what was the total bill? ")
@@ -7,12 +9,9 @@ percentage_tip_as_int = int(percentage_tip)
 split_bill = input("How many people to split the bill? ")
 split_bill_as_int = int(split_bill)
 
-payable = percentage_tip_as_int / 100 * total_bill_as_int / split_bill_as_int
-# payable = total_bill_as_int * 100 / percentage_tip_as_int
-print(payable)
+payable = percentage_tip_as_int / 100 * total_bill_as_int / split_bill_as_int + total_bill_as_int
+final_bill = payable / split_bill_as_int
+message = (f"Each person should pay: £{final_bill:.2f}")
+print(message)
 
-
-# total_bill_as_int 
-# percentage_tip_as_int 
-# split_bill_as_int 
 
