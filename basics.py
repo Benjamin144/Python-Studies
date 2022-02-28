@@ -245,7 +245,21 @@
 # message =  (f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.")
 # print(message)
 
-print("Welcome to the Band Name Generator.")
-city = input("What's the name of the city you grew up in?\n")
-pet = input("What's your pet's name?\n")
-print("Your band name could be " + city + " " + pet)
+# print("Welcome to the Band Name Generator.")
+# city = input("What's the name of the city you grew up in?\n")
+# pet = input("What's your pet's name?\n")
+# print("Your band name could be " + city + " " + pet)
+
+# Day 3 (Control Flow & Logical Operators)
+
+# water = int(input("What is the water level? "))
+# water_level = water
+# water_level = 50
+# if water_level > 80:
+#     print("Drain water")
+# else:
+#     print("Continue")
+
+
+
+over 120cm check height if too short can't sell a ticket
