@@ -1,4 +1,4 @@
-class Example(object):  
+class Type1(object):  
    def Fizz_Buzz(self, n):  
       """  
       :type n: int  
@@ -15,5 +15,5 @@ class Example(object):
          else:  
             result.append(str(i))  
       return result  
-object1 = Example()  
+object1 = Type1()  
 print(object1.Fizz_Buzz(55)) 
