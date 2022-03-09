@@ -13,11 +13,11 @@
 # print(message)
 
 
-print("Welcome to the tip calculator!")
-initial_bill = float(input("What was the total bill? £"))
-the_tip = int(input("What percentage tip would you like to give 10, 12, or 15?, (only use numbers not percentages!)")) 
-split_bill = int(input("How many people would you like to split the bill? "))
-percentage_tip = the_tip / 100 
+print("Welcome to the tip calculator!") # normal print statement
+initial_bill = float(input("What was the total bill? £")) # inputs a statement that converts the variable input to a float.
+the_tip = int(input("What percentage tip would you like to give 10, 12, or 15?, (only use numbers not percentages!)")) # inputs a statement that converts the variable into an integer.
+split_bill = int(input("How many people would you like to split the bill? ")) # inputs a statement that converts a variable into an integer.
+percentage_tip = the_tip / 100 # takes a variable and potentially divides it by an integer potentially creating a floating point number then stores the result in a new variable
 total_tip = initial_bill * percentage_tip
 total_bill = initial_bill + total_tip
 persons_payable = total_bill / split_bill 
