@@ -1,9 +1,11 @@
 class Type1(object):  
    def Fizz_Buzz(self, n):  
       """  
+   
       :type n: int  
       :rtype: List[str]  
       """  
+      
       result = []  
       for i in range(1 , n+1):  
          if i % 3 == 0 and i % 5 == 0:  
