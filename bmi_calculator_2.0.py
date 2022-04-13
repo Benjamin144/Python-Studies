@@ -1,55 +1,34 @@
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
-bmi = float(weight)/float(height) ** 2
-bmi_as_int = int(bmi)
+bmi = (weight)/(height) ** 2
+bmi_as_int = int(round(bmi, 2))
 
 if bmi_as_int < 35:
     if bmi_as_int <= 18.5:
-        print(f"Your BMI is {bmi_as_int}, you are underweight")
+        print(f"Your BMI is {bmi_as_int}, you are \033[1munderweight")
     elif bmi_as_int <= 25:
-        print(f"Your BMI is {bmi_as_int}, you are normal weight")
+        print(f"Your BMI is {bmi_as_int}, you are \033[1mnormal weight")
     elif bmi_as_int <= 30:
-        print(f"Your BMI is {bmi_as_int}, you are overweight")
+        print(f"Your BMI is {bmi_as_int}, you are \033[1moverweight")
     elif bmi_as_int <= 35:
-        print(f"Your BMI is {bmi_as_int}, you are obese")
+        print(f"Your BMI is {bmi_as_int}, you are \033[1mobese")
 else:
-    print(f"Your BMI is {bmi_as_int} you are clinically obese.")
+    print(f"Your BMI is {bmi_as_int} you are \033[1mclinically obese.")
 
-# height = float(input("enter your height in m: "))
-# weight = float(input("enter your weight in kg: "))
+    # total_usd = round(euro * usd, 2)
 
-# def calculate_bmi():
-#     kg = int(weight_tf.get())
-#     m = int(height_tf.get())/100
-#     bmi = kg/(m*m)
-#     bmi = round(bmi, 1)
-#     bmi_index(bmi)
+#     bmi = (weight)/(height) ** 2
+# bmi_as_int = int(round(bmi, 2))
 
-# def bmi_index(bmi):
-
-#     if bmi < 18.5:
-#         messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Underweight')
-#     elif (bmi > 18.5) and (bmi < 24.9):
-#         messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Normal')
-#     elif (bmi > 24.9) and (bmi < 29.9):
-#         messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Overweight')
-#     elif (bmi > 29.9):
-#         messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Obesity')
-#     else:
-#         messagebox.showerror('bmi-pythonguides', 'something went wrong!')
-
-
-# bmi_guage = 35
-# bmi_guage_int = int(bmi_guage)
-# bmi_as_int = int(bmi)
-# if bmi_guage >= 18.5:
-#     print(f"Your BMI is {bmi_as_int}, you are slightly overweight.")
-#     if bmi_as_int < 18.5:
-#         print(f"Your BMI is {bmi_as_int}, you have a normal weight.")
-#     elif bmi_as_int > 25:
-#         print(f"Your BMI is {bmi_as_int}, you are slightly overweight")
-#     elif bmi_as_int > 30:
-#         print(f"Your BMI is {bmi_as_int}, you are obese.")
+# if bmi_as_int < 35:
+#     if bmi_as_int <= 18.5:
+#         print(f"Your BMI is {bmi_as_int}, you are \033[1munderweight")
+#     elif bmi_as_int <= 25:
+#         print(f"Your BMI is {bmi_as_int}, you are \033[1mnormal weight")
+#     elif bmi_as_int <= 30:
+#         print(f"Your BMI is {bmi_as_int}, you are \033[1moverweight")
+#     elif bmi_as_int <= 35:
+#         print(f"Your BMI is {bmi_as_int}, you are \033[1mobese")
 # else:
-#     print(f"Your BMI is {bmi_as_int} you are clinically obese.")
+#     print(f"Your BMI is {bmi_as_int} you are \033[1mclinically obese.")
