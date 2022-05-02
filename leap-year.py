@@ -1,8 +1,10 @@
-leapYear = 2000/4
-if leapYear / 100:
-    print("This is not a leap year.")
-elif leapYear % 100 == 0:
+year = int(input("Which year would you like to check?"))
+
+if year / 4:
+    print("This is a leap year.")
+elif year / 100:
     print("This is not a leap year")
-else:
+elif year / 400:
     print("This is a leap year")
-print(leapYear)
+else:
+    print("This is not a leap Year")
