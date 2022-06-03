@@ -4,7 +4,7 @@ year =  int(input("Enter any Earth year please:\n"))
 if year % 4 == 0 and year % 100 != 0:
     leap_year = True
     print("This is a leap year")
-elif year % 100 and year % 400 != 0:
+elif year % 400 == 0 and year % 100 == 0:
     print("This is a leap year")
     leap_year = True
 else:
