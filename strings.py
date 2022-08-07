@@ -80,6 +80,6 @@ second_name = ["Eric"]
 """ this code should write out the filled arrays and then append the
 second_name in the name list (Eric) """
 
-print(numbers[0, 1, 2])
-print(strings[0, 1])
+print(numbers)
+print(strings)
 print("The second name on the name list is %s" % second_name)
