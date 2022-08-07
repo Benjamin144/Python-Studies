@@ -29,6 +29,9 @@ print(helloworld)
 h, t = 6, 90
 print(h, t)
 
+hello, the, world = 1, 4, 4
+print(hello, the, world)
+
 # The target of this exercise is to create a string, an integer, and a floating point number.
 # The string should be named mystring and should contain the word "hello".
 # The floating point number should be named myfloat and should contain the number 10.0, and
@@ -57,3 +60,18 @@ if isinstance(myint, int) and myint == 20:
 # The following Python code illustrates the way of performing string formatting.
 # The formatting using % is similar to that of 'printf' in C programming language.
 # %d – integer %f – float %s – string %x – hexadecimal %o – octal The below example describes the use of formatting using % in Python
+
+# add numbers and strings to the correct lists using the append list method
+
+numbers = []
+strings = []
+names = ["John", "Eric", "Jessica"]
+
+second_name = None
+
+""" this code should write out the filled arrays and then append the
+second name in the name list (Eric) """
+
+print(numbers)
+print(strings)
+print("The second name on the name list is %s" % second_name)
