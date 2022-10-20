@@ -32,8 +32,8 @@
 # a = input("a: ")
 # b = input("b: ")
 
-# Attempt 1 (Tuple swap without variables) 
-# a, b = b, a 
+# Attempt 1 (Tuple swap without variables)
+# a, b = b, a
 # or
 
 # Attempt 2 (Temporary variable)
@@ -55,7 +55,7 @@
 
 # Datatypes
 
-#string
+# string
 # print("hello"[4])
 
 # print("123" + "345") # concatenates strings within parentheses
@@ -69,7 +69,7 @@
 
 # 134_265_4896 you can use underscores for easy reading. Python wil know just to read the numbers!
 
-#Float
+# Float
 
 # 3.14159
 # a = float(123)
@@ -83,7 +83,7 @@
 # False
 
 # coding exercise 1.2 (Final)
-# two_digit_number = input("Type a two digit number: ") 
+# two_digit_number = input("Type a two digit number: ")
 # num1 = int(two_digit_number[0]) #Gets the first and second digits using subscripting and then converts each string to an integer
 # num2 = int(two_digit_number[1]) #Gets the first and second digits using subscripting and then converts each string to an integer
 # total = (num1) + (num2) # Adds the two digit nuber together without concatention because of string conversion
@@ -137,7 +137,7 @@
 # 🚨 Don't change the code above 👆
 
 ####################################
-#Write your code below this line 👇
+# Write your code below this line 👇
 # num1 = int(two_digit_number[0])
 # num2 = int(two_digit_number[1])
 # total = (num1) + (num2)
@@ -171,7 +171,7 @@
 # print(round(2.666666666666, 2)) # alternativley, it can be written like this.
 # # another way of dividing numbers is to use the floor division //
 # print (8 // 3)
-# # in Python a number divided by a number outputs a floating point number 
+# # in Python a number divided by a number outputs a floating point number
 # # If you didn't need a FPN then the floor division would chop the FPN's off without converting it into an integer.
 # print(type(8 // 3)) # Integer
 # print(type(8 / 3)) # Float
@@ -213,7 +213,7 @@
 
 # #f-string
 # print("Your score is ")
-# # you type the character f infront of the string and it should go in front of the double or single quotes most importantly 
+# # you type the character f infront of the string and it should go in front of the double or single quotes most importantly
 # f"your score is " # this is now an f-string and I can now start adding characters in front of the f-string
 # # so if I wanted to write "your score is " = to the the variable score I would put the variable score inside a set of curly braces, within the string
 # print(f"Your Score is {score}") # so when the code is run python will convert the variables within the string in the background, without the use of concatenation and data conversion.
@@ -223,10 +223,9 @@
 # # 🚨 Don't change the code above 👆
 
 
-
 # #Write your code below this line 👇
 # days = int(365 * 90) - 365 * int(age)
-# weeks = int(52 * 90) - 52 * int(age) 
+# weeks = int(52 * 90) - 52 * int(age)
 # months = int(12 * 90) - 12 * int(age)
 
 # print (f"You have {days} days, {weeks} weeks, and {months} months left.")
@@ -260,6 +259,16 @@
 # else:
 #     print("Continue")
 
+# these operators can be used with numbers
+# number = 1 + 2 * 3 / 4.0  # python follows an order of operation
+# print(number)
+
+# the modulo operator will return the remaining integers of the divisable sum
+# remainder = 11 % 3
+# print(remainder)
 
 
-over 120cm check height if too short can't sell a ticket
+squared = 7 ** 2
+cubed = 2 ** 3
+print(squared)
+print(cubed)
