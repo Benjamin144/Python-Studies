@@ -267,8 +267,14 @@
 # remainder = 11 % 3
 # print(remainder)
 
+# squared = 8 ** 2 this variable names the square root operation in lay mans terns
+# cubed = 2 ** 3 and this is the cubed root multiplying 2 by itself (2), then 4 * 2 = 8
+# print(squared)
+# print(cubed)
 
-squared = 7 ** 2
-cubed = 2 ** 3
-print(squared)
-print(cubed)
+# using operators with a string
+
+helloworld = "hello" + " " + "world"
+elloworld = "hello "+"world"
+print(helloworld)
+print(elloworld)
