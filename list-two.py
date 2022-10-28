@@ -14,3 +14,8 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print("Almost there...")
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
+
+# The target of this exercise is to create two lists called x_list and y_list,
+# which contain 10 instances of the variables x and y, respectively.
+# This code also creates another list called big_list,
+# which contains the variables x and y, 10 times each, by adding the two lists created previously together.
