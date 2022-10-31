@@ -25,8 +25,19 @@ print("New Eden Security Systems %.4f" % starSystemsSecurity)
 # print("%s Your current balance is %s %f " % format_string)
 
 # CORRECT SOLUTION
+
 data = ("John", "Doe", 53.44)
 format_string = "Hello %s %s. Your current balance is $%s."
 
 print(format_string % data)
+
 # Hello John Doe. Your current balance is $53.44.
+
+# My example
+
+dataSets = ('Shield Booster', 'Shield Hardner', 449000)
+shipFormatString = "Items: %s and %s will take %s ISK from your bank balance."
+
+print(shipFormatString % dataSets)
+
+# Item Shield Booster & Shield Hardner will take £449000 ISK from your bank balance
