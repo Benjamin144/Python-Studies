@@ -1,4 +1,9 @@
+name = input("What is your name? ")
+print(name)
+
+
 # Swap variable excercise
+# The key to solving this excercise is to create a 3rd variable, because we need some temporary store.
 
 a = input("a: ")
 b = input("b: ")
